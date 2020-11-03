@@ -1,0 +1,193 @@
+body {
+  background: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.app-wrapper {
+  width: 1000px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+/* ---------- toolbox ---------- */
+.toolbox-wrapper {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  margin: 20px 0;
+}
+
+.toolbox-wrapper > select,
+button {
+  font-size: 1.5rem;
+  width: 200px;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+
+.toolbox-wrapper > div {
+  font-size: 1.5rem;
+  line-height: 50px;
+  width: 100px;
+  text-align: center;
+  background: #fff;
+}
+
+.toolbox-wrapper > select {
+  padding: 0 15px;
+}
+
+.toolbox-wrapper > select:hover,
+button:hover {
+  background: gray;
+  color: #fff;
+  transition: 0.5s;
+}
+
+/* ---------- tourism ---------- */
+.tourism-wrapper {
+  width: 100%;
+}
+
+.tourism {
+  display: flex;
+  height: 273px;
+  margin: 0 0 20px 0;
+  transition: 0.5s;
+}
+
+.tourism:hover {
+  box-shadow: 1px 1px 20px gray;
+}
+
+.tourism:hover > .image-url > img {
+  transform: scale(1.2, 1.2);
+}
+
+.tourism-content {
+  background: #fff;
+  width: 100%;
+  padding: 20px 20px 0 20px;
+}
+
+.vandor {
+  height: 50px;
+}
+
+.tags-box {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+}
+
+.tags {
+  border: 1px solid #03a9f4;
+  color: #03a9f4;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.tour-link {
+  height: 30px;
+}
+
+.tour-link > a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.image-url {
+  width: 250px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-url > img {
+  height: 100%;
+  transform: scale(1, 1);
+  transition: all 0.5s ease-out;
+}
+
+.tags-items {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  color: #03a9f4;
+}
+
+.tags-1 {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.price-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour_days,
+.min-price {
+  color: #ff9800;
+  font-size: 25px;
+}
+
+.star-color {
+  color: #ff9800;
+}
+
+.page-wrapper > ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.page-item {
+  width: 40px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  transition: 0.5s;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.page-item-focus {
+  background: #373a3c;
+  color: #fff;
+}
+
+.page-item:hover {
+  background: #373a3c;
+  color: #fff;
+}
+
+.page-item-prev,
+.page-item-next {
+  width: 50px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  transition: 0.5s;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.page-item-prev:hover,
+.page-item-next:hover {
+  background: #373a3c;
+  color: #fff;
+}
